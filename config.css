@@ -131,9 +131,9 @@ body, #container::before{
 	color: #ccc;
 }
 
-/*#section .w3-row.c h2, #section .row.c a {
+#section .w3-row.c h2, #section .row.c a {
 	filter: blur(6px);
-}*/
+}
 
 /** LINK ROW **/
 
