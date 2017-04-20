@@ -7,7 +7,7 @@
 }
 
 body, #container::before{
-	background:url("lib/firewatch.jpg") top left /cover;
+	background:url("lib/theverge.png") top left /cover;
 	background-attachment: fixed;
 }
 
