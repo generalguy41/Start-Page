@@ -7,7 +7,7 @@
 }
 
 body, #container::before{
-	background:url("lib/theverge.png") top left /cover;
+	background:url("lib/wood.jpg") top left repeat;
 	background-attachment: fixed;
 }
 
