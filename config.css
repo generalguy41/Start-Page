@@ -130,10 +130,10 @@ body, #container::before{
 	font-weight: 200;
 	color: #ccc;
 }
-
+/*
 #section .w3-row.c h2, #section .row.c a {
 	filter: blur(6px);
-}
+}*/
 
 /** LINK ROW **/
 
