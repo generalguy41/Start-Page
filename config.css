@@ -39,7 +39,7 @@ body, #container::before{
 
 #container {
 	position: relative;
-	box-shadow: 0px 0px 30px rgba(20, 20, 20, 0.60);
+	box-shadow: 0px 0px 40px rgba(20, 20, 20, 0.30);
 	border-radius: 5px;
 	padding: 35px 20px;
 	margin: 15px;
@@ -48,12 +48,12 @@ body, #container::before{
 
 #container::before{
 	content: " ";
-	filter: blur(15px) contrast(.75) brightness(1.1);
+	filter: blur(18px) contrast(.75) brightness(1.1) saturate(1.5);
 	position: absolute;
 	display: block;
-	top: -20%;
+	top: -30%;
 	right: -10%;
-	bottom: -20%;
+	bottom: -30%;
 	left:-10%;
 	z-index: -1;
 }
@@ -140,10 +140,6 @@ body, #container::before{
 	font-weight: 200;
 	color: #ccc;
 }
-/*
-#section .w3-row.c h2, #section .row.c a {
-	filter: blur(6px);
-}*/
 
 /** LINK ROW **/
 
@@ -158,10 +154,6 @@ body, #container::before{
 
 #section .row.d {
 	border-radius: 0 0 3px 0;
-}
-
-#section .row.d li:nth-child(3), #section .row.d li:nth-child(4) {
-	filter: blur(6px);
 }
 
 #section .row.c li:last-child {
