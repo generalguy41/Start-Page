@@ -157,10 +157,6 @@ body, #container::before{
 	border-radius: 0 0 3px 0;
 }
 
-#section .row.c li:last-child {
-	visibility: hidden;
-}
-
 #section a {
 	color: #ccc;
 	text-decoration: none;
