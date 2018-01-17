@@ -63,14 +63,14 @@ body, #container::before{
 
 #Search {
 	font-family: inherit;
+	color: white;
 	text-align: center;
 	transition: width 0.5s ease-in-out, background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 	background-color: rgba(20, 20, 20, 0.60);
 	width: 80px;
 	height: 25px;
 	max-width:500px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0 15px 3px 15px;
 	margin: 0 auto 0 auto;
 	position: relative;
 	left: 50%;
